@@ -24,5 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "
+    "url": "https://github.com/piravelha/terrascript-vsix.git",
+    "directory": "/"
+  }
 }

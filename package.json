@@ -1,0 +1,28 @@
+{
+  "name": "terrascript-support",
+  "displayName": "TerraScript Syntax Support",
+  "description": "pjnto",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "trs",
+      "aliases": ["TerraScript", "trs"],
+      "extensions": [".trs"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "trs",
+      "scopeName": "source.trs",
+      "path": "./syntaxes/trs.tmLanguage.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "
+}
